@@ -58,7 +58,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
 ]
 
-ROOT_URLCONF = 'converter-project.urls'
+ROOT_URLCONF = 'converter_project.urls'
 
 TEMPLATES = [
     {
@@ -75,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'converter-project.wsgi.application'
+WSGI_APPLICATION = 'converter_project.wsgi.application'
 
 
 # Database
