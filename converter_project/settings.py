@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-gg23!n7i%=+ppk&70ex*ru=lp*q++pdtnws7gdt6+8ly3pwud6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cloudconverter.biz499.com']
 
 
 # Application definition
@@ -56,7 +56,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://cloudconvert.biz499.com"
+    "https://cloudconverter.biz499.com",
 ]
 
 ROOT_URLCONF = 'converter_project.urls'
